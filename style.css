@@ -1,0 +1,45 @@
+body{
+    /* background: rgb(86, 87, 84); */
+    /* background: linear-gradient(90deg, rgb(219, 225, 205) 0%, rgb(50, 48, 48) 77%); */
+    background-image: url(stop.jpg);background-attachment: fixed;
+	background-repeat: no-repeat;height: 100%;width:100%;background-size: cover;
+}
+*{
+    padding: 0;
+    margin: 0;     
+}
+.container{
+    width: 600px;
+    height:250px;
+    display: block;
+    background-color: #090303;
+    /* background: rgb(41,6,107); */
+    /* background: linear-gradient(90deg, rgba(41,6,107,1) 0%, rgba(110,34,251,1) 100%); */
+    color:#ffffff;
+    border-radius: 15px; 
+    margin-top: 15%;
+    margin-left: 30%;
+    text-align: center;
+    font-size: 20px;
+}
+.heading{
+    padding: 20px;
+}
+#time{
+    font-size: 40px;
+    margin-top: 20px;
+}
+button{
+    font-size: 20px;    
+    padding: 7px;
+    border-radius: 5px;
+    margin-top: 25px;
+    width:100px;
+    background: #804902;
+    color:#ffffff;
+}
+button:hover{
+    background-color: rgb(220, 117, 7);
+    color:#110707;
+    transition: 0.5s;
+}
